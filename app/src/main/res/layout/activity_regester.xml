@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Regester">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New Account"
+        android:textColor="@color/purple_700"
+        android:textSize="40dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="If you do not already have an account"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="18"
+        android:hint="E-Mail"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="18"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="300dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/ic_baseline_visibility_off_24"/>
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="18"
+        android:hint="Re-Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="350dp"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/ic_baseline_visibility_off_24"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:text="CREATE"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="480dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have an account ?"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="550dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/purple_700"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="550dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="-25dp"/>
+
+
+</LinearLayout>
