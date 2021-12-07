@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/old_status"
+
+
+    >
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1565C0"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="١١٢dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/border"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/size"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/border"
+                android:text=""
+                android:textColor="@color/black" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="١١٢dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/border"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/length"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/border"
+                android:text=""
+                android:textColor="@color/black" />
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
